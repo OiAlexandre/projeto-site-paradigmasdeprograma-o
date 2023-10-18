@@ -57,7 +57,7 @@ nav  .menu-btn i{
     display: none;
 }
 
-@media (max-width: 920px) {
+@media screen and (max-width: 768px) {
     nav .menu-btn i{
         display: block;
     }
@@ -86,5 +86,11 @@ nav  .menu-btn i{
     nav ul li a:hover{
         background: none;
         color: #FF7558;
-    }   
+    }
+    
+    h2#header {
+        color: #FFE8B0;
+        margin: 0 0 0 -95px;
+        font-size: 15px;
+    }
 }
